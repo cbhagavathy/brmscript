@@ -1,0 +1,14 @@
+r << xx 1
+0 PIN_FLD_POID           POID [0] 0.0.0.1 /procedure -1 0
+0 PIN_FLD_PROC_NAME       STR [0] "get_account_dtls"
+0 PIN_FLD_ARGS          ARRAY [0] allocated 2, used 2
+1     PIN_FLD_ARG_TYPE       ENUM [0] 0
+1     PIN_FLD_POID         POID [0] 0.0.0.1 /account 1
+0 PIN_FLD_ARGS          ARRAY [1] allocated 2, used 2
+1     PIN_FLD_ARG_TYPE       ENUM [0] 1
+1     PIN_FLD_ACCOUNT_NO          STR [0] ""
+0 PIN_FLD_ARGS          ARRAY [2] allocated 2, used 2
+1     PIN_FLD_ARG_TYPE       ENUM [0] 1
+1     PIN_FLD_CURRENCY          INT [0] 0
+xx
+xop 31 0 1
